@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# base class of all our models. It contains common elements:
+#- attributes: id, created_at and updated_at
+#- methods: save() and to_json()
+=======
 #!/usr/bin/python3
 """
 A module that implements the BaseModel class
@@ -63,3 +68,4 @@ class BaseModel:
                 v = self.__dict__[k].isoformat()
                 dict_1[k] = v
         return dict_1
+>>>>>>> d1d07dd169c8e4617a79c9971c671ae9fc0774f7
